@@ -29,6 +29,10 @@
       .smaller-image {
         width: 100px;
       }
+
+      body {
+          color: grey;
+      }
     </style>
     
     <h2 class="red-text">Monochrome Animals</h2>
@@ -52,14 +56,16 @@
       <li>Not be another color than those.</li>
     </ol>
     <form action="https://freecatphotoapp.com/submit-cat-photo">
+      <h5></h5>
       <label><input type="radio" name="indoor-outdoor"> Indoor</label>
       <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
       <h5>What monochrome animals have you seen before?</h5>
       <label for="panda"><input value="panda" type="checkbox" name="animals"> Panda</label>
       <label for="zebra"><input value="zebra" type="checkbox" name="animals"> Zebra</label>
       <label for="panther"><input value="panther" type="checkbox" name="animals"> Panther</label>
-      <label><input type="checkbox" name</label>
-      <input type="text" placeholder="cat photo URL" required>
+      <label for="koala"><input value="koala" type="checkbox" name="animals">Koala</label>
+      <h5>What is the best thing about monochrome animals?</h5>
+      <input type="text" placeholder="I can draw them without coloured pencils" required>
       <button type="submit">Submit</button>
     </form>
 </body>
