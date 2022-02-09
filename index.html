@@ -3,13 +3,15 @@
 <body>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <!--change font family, text colour. Use different font sizes throughout page. Use different sizes pictures(and add to eventual screenshot)-->
+    <!--monochrome animals page with 4 pictures (penguin, panda-bear, zebra and koala)-->
     <style>
       .red-text {
         color: red;
       }
     
       h2 {
-        font-family: Lobster, "Comic sans"; <!--change font family (and add to eventual screenshot)-->
+        font-family: Lobster, "Comic sans"; 
       }
     
       p {
@@ -31,28 +33,32 @@
     
     <h2 class="red-text">Monochrome Animals</h2>
     
-    <p>Click here for <a href="#">cat photos</a>.</p>
+    <p>Do you want to see a picture of a <a href="#">zebra</a>?</p>
     
-    <a href="#"><img class="smaller-image thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-    
-    <p>Things cats love:</p>
+    <a href="#"><img class="smaller-image thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A picture of a zebra."></a>
+    <p>Here are several colors a monochrome animal can't be:</p>
     <ul>
-      <li>cat nip</li>
-      <li>laser pointers</li>
-      <li>lasagna</li>
+      <li>Brown</li>
+      <li>Red</li>
+      <li>Green</li>
+      <li>Seafoam</li>
     </ul>
-    <p>Top 3 things cats hate:</p>
+    <p>This is what an animal needs to be a monochrome animal:</p>
     <ol>
-      <li>flea treatment</li>
-      <li>thunder</li>
-      <li>other cats</li>
+      <li>Be an animal.</li>
+      <li>Be partially black (optional).</li>
+      <li>Be partially white (optional).</li>
+      <li>Be partially grey (optional).</li>
+      <li>Not be another color than those.</li>
     </ol>
     <form action="https://freecatphotoapp.com/submit-cat-photo">
       <label><input type="radio" name="indoor-outdoor"> Indoor</label>
       <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
-      <label><input type="checkbox" name="personality"> Loving</label>
-      <label><input type="checkbox" name="personality"> Lazy</label>
-      <label><input type="checkbox" name="personality"> Crazy</label>
+      <h5>What monochrome animals have you seen before?</h5>
+      <label for="panda"><input value="panda" type="checkbox" name="animals"> Panda</label>
+      <label for="zebra"><input value="zebra" type="checkbox" name="animals"> Zebra</label>
+      <label for="panther"><input value="panther" type="checkbox" name="animals"> Panther</label>
+      <label><input type="checkbox" name</label>
       <input type="text" placeholder="cat photo URL" required>
       <button type="submit">Submit</button>
     </form>
